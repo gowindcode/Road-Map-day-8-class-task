@@ -1,0 +1,145 @@
+h3 {
+    color: blueviolet;
+}
+div{
+    color: brown;
+}
+
+/* four pillers of proprties, there are main four properties in css */
+/* list property, font property, text property, border property */
+
+/* list property */
+
+/* we can use this list property in un order list and list properties and slecet image instead of circle or suare */
+ul {
+    list-style-type: circle;  
+}
+li{
+    list-style: square inside url("./assit/1\ one.jpg"); 
+}
+
+/* font property */
+div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* text property */
+
+p{
+    text-decoration-line: underline;
+    text-justify: newspaper;
+    text-transform: uppercase;
+    text-align: justify;
+    line-height: 1;
+    letter-spacing: 2;
+}
+
+/* border property */
+/* div{
+border: 2px solid blue;
+border-radius: 10;
+text-align:justify;
+} */
+
+p{
+    border-top: 2px solid red;
+    border-right: 2px solid green;
+    border-bottom: 2px solid yellowgreen;
+    border-left: 2px solid blue;
+    font-size: 15px;
+    text-align: left;
+    border-top-right-radius: 1px;
+    border-radius: 10px;
+}
+
+/* id selectors using # */
+.ele {
+    text-align: center;
+    color: blueviolet;
+   
+}
+.brd{
+    border-color:brown;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+#uni-ele{
+    text-align:center;
+    color: limegreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+
+#uni-ele5{
+    text-align: center;
+    color:brown;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: large;
+    font-variant: small-caps;
+    font-weight: 300px;
+}
+#uni-ele6{
+    font-family: 'Times New Roman', Times, serif;
+    color:brown;
+    font-style: italic;
+}
+#uni-ele7{
+    font-style: normal;
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* background color is bisque, full block container */
+#container {
+    background-color: bisque;
+}
+/* here <a> anchor tag color back ground change in side container */
+#container a{
+    background-color: yellow;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* as well in anchor tag using class="" link  with !important key */
+.anc-link{
+    background-color:aqua !important;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+.block{
+    display: block;
+    /* now inline change to blcok level element */
+    background-color: salmon;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    width: 70px;
+    height: 20px;
+}
+.inline {
+    display: inline;
+    /* now block level change to inline level element */
+    /* here also we can do all like block level element except height and width */
+    background-color: hotpink;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: blue;
+}
+.inline-block{
+    display: inline-block;
+    /* now inline change to blcok level element */
+    background-color:orangered;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    width: 70px;
+    height: 20px;
+    color: black;
+}
